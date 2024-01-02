@@ -1,9 +1,7 @@
-Create a file                                   :           touch filename
+Git is used to track the files
 Now add that file                          :           git add . (Dot represents current directory)
-commit the file with message      :           git commit -m "commit message you want"  filename
 To see details of that file              :           git log
+My Name is git
 To untrack                                      :           git rm --cached filename
 To show commit file                      :           git show commit id --name-only 
-To see only commit id's and msgs :          git log --oneline
-To see last 2 commits                     :          git log -2 
 To see all commits for a single file  :        git log --follow --all filename
